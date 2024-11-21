@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "local_storage"']
+    url = /remote
+['remote "myremote"']
+    url = /path/to/remote/storage

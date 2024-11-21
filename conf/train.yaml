@@ -1,0 +1,11 @@
+defaults:
+  - _self_
+  - datamodule: sigmoid_data
+  - model: sigmoid_model
+
+trainer:
+  max_epochs: 10
+  gpus: 1
+#train:
+#  max_epochs: 10
+#  gpus: 1
